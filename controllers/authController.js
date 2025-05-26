@@ -35,10 +35,9 @@ exports.registerUser = async (req, res) => {
       Gender: "Other",
       preferredStudyMethod: "None",
       dislikedLesson: "None",
-      stressProbability: 0.0,
+      stressLevel: "",
       stressLevel: "Medium",
-      cognitivePerformance: "Average", // Fixed: was "None", now "Average"
-      // Initialize marks and time(s) fields
+      cognitivePerformance: "",
       numberSequencesMarks: [],
       numberSequencesTime: "0",
       perimeterMarks: [],
