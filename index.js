@@ -11,6 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   origin: [
+    'https://smart-steps.vercel.app',
     'http://localhost:3000',
     'http://localhost:3001',
     'http://127.0.0.1:3000',
